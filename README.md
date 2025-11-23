@@ -138,7 +138,7 @@ El uso del modelo de predicción genera beneficios frente al proceso manual de a
 
 ## Dependencias
 
-Python 3.9+ y librerías:
+Python 3.12+ y librerías:
 
 * pandas
 * numpy
