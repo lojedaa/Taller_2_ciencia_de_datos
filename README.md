@@ -165,7 +165,7 @@ Google Colab ya incluye la mayoría.
 
 ## Cómo ejecutar
 
-0. instalar todas las dependencias necesarias con !pip instal nombre_dependencia 
+0. instalar todas las dependencias necesarias con !pip install nombre_dependencia 
 1. Abrir **Taller_2.ipynb**. Preferiblemente en colab
 2. Ejecutar todas las celdas en orden.
 3. Revisar métricas, gráficos y conclusiones.
