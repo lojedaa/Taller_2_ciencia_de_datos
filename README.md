@@ -14,7 +14,7 @@
 Taller_2 
 * Taller_2.ipynb                # Notebook principal
 * Resumen Ejecutivo.pdf         # Resumen ejecutivo del taller 
-* Generación de valor.pdf       # Análisis económico del modelo
+* Generación_de_valor.pdf       # Análisis económico del modelo
 * Costo_ambiente_AWS_cloud.pdf  # Costos aproximados del ambiente en la nube aws
 * apartamentos.csv              # Dataset de precios de apartamentos
 * Diccionario de datos - apartamentos.html      # Diccionario de variables
@@ -35,6 +35,14 @@ El modelo busca:
 * Servir como base para futuras herramientas analíticas de HabitAlpes.
 
 ---
+## Resumen General 
+Este proyecto desarrolla un modelo de Machine Learning para predecir el precio de venta de apartamentos en Bogotá utilizando información estructural, geográfica y categórica. Se evaluaron dos modelos CatBoost y XGBoost y se encontró que XGBoost ofrece el mejor desempeño, alcanzando un R² cercano al 0.90 y un MAPE cercano al 10%. Aunque se implementaron técnicas de enriquecimiento de datos basadas en distancias geográficas y vecinos cercanos, estas mejoras solo se aplicaron a CatBoost y no generaron incrementos significativos en precisión. El análisis de interpretabilidad (SHAP y LIME) confirmó que variables como área, administración, ubicación y antigüedad son las más determinantes en el precio. El modelo final demuestra buena capacidad predictiva, estabilidad y potencial económico. Esto ultimo se refleja em el analisis de generacion de valor.
+
+## Resumen Ejecutivo
+
+El resumen ejecutivo se encuentra disponible en el siguiente documento:  
+
+[Ver Resumen Ejecutivo 1](Taller%202/Resumen%20Ejecutivo.pdf)
 
 # Metodología general 
 
@@ -122,6 +130,10 @@ El uso del modelo de predicción genera beneficios frente al proceso manual de a
 * **Retorno de inversión:** la inversión inicial se recupera en aproximadamente **7 meses**, y desde ese punto el ahorro neto mensual genera valor directo para HabitAlpes.
 
 **Conclusión:** El modelo es rentable, acelera el proceso de valoración y constituye una herramienta escalable con impacto económico positivo.
+
+El docuemnto de generacion de valor completo se encuentra disponible en el siguiente documento:  
+
+[Ver Generacion_de_valor](Taller%202/Generación_de_valor.pdf)
 
 ---
 
