@@ -116,7 +116,7 @@ También se incluyeron explicaciones locales con gráficos tipo waterfall.
 
 ## LIME
 
-Se utilizó para interpretar predicciones puntuales dentro de vecindarios locales del espacio de características. 
+Se utilizó para interpretar predicciones puntuales dentro de vecindarios locales del espacio de características. El grafico que nos describe lime no se puede visualizar directamente desde la previsualización de github se recomiedna usar colab y correr todo el notebook. Puede abrir el notebook directamente en colab usando el boton del incio del notebook.
 
 ---
 
