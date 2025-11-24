@@ -150,7 +150,7 @@ El docuemnto de generacion de valor completo se encuentra disponible en el sigui
 
 ## Dependencias
 
-Python 3.12+ y librerías:
+Python 3.12.12 y librerías:
 
 * pandas
 * numpy
@@ -166,7 +166,7 @@ Google Colab ya incluye la mayoría.
 ## Cómo ejecutar
 
 0. instalar todas las dependencias necesarias con !pip install nombre_dependencia 
-1. Abrir **Taller_2.ipynb**. Preferiblemente en colab
+1. Abrir **Taller_2.ipynb**. Preferiblemente en colab ya que la version que se utiliza para lime aveces no se geenra desde VSCODE.
 2. Ejecutar todas las celdas en orden.
 3. Revisar métricas, gráficos y conclusiones.
 
